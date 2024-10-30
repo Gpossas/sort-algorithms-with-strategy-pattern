@@ -1,4 +1,4 @@
-from SortInterface import SortAlgorithm
+from interfaces.sort_interface import SortAlgorithm
 
 
 class QuickSortStrategy(SortAlgorithm):

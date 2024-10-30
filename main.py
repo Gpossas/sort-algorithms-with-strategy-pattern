@@ -2,7 +2,7 @@
 from algorithms.bubblesort import BubbleSortStrategy
 from algorithms.insertionsort import InsertionSortStrategy
 from algorithms.quicksort import QuickSortStrategy
-from sort import SortClass
+from context.sort import SortClass
 
 
 my_sort = SortClass()

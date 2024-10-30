@@ -1,12 +1,12 @@
 # usage
-from bubblesort import BubbleSortStrategy
-from insertionsort import InsertionSortStrategy
-from quicksort import QuickSortStrategy
+from algorithms.bubblesort import BubbleSortStrategy
+from algorithms.insertionsort import InsertionSortStrategy
+from algorithms.quicksort import QuickSortStrategy
 from sort import SortClass
 
 
-sort_class = SortClass()
+my_sort = SortClass()
 
-sort_class.sort(InsertionSortStrategy())
-sort_class.sort(QuickSortStrategy())
-sort_class.sort(BubbleSortStrategy())
+my_sort.sort(InsertionSortStrategy())
+my_sort.sort(QuickSortStrategy())
+my_sort.sort(BubbleSortStrategy())
